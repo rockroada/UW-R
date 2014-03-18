@@ -1,0 +1,16 @@
+list.files()
+files = list.files()
+print(files)
+?file.copy
+file.copy('session02_care-feeding-objects.r', './src')
+file.copy('toylinePlot.pdf', './results')
+file.copy('toylinePlot.png', './results')
+?file
+file.copy('toylinePlot.pdf', './results/2014_03_18')
+getwd()
+setwd("/Users/rockroada/swcUW/results") 
+getwd()
+file.remove('toylinePlot.png')
+setwd("/Users/rockroada/swcUW") 
+getwd()
+file.remove('toylinePlot.png')
